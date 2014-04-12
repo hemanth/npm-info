@@ -1,4 +1,4 @@
-# &lt;xkcd-img&gt;
+# &lt;npm-info&gt;
 
 Custom [Polymer](http://polymer-project.org/) element for dispalying npm-info of the given package name.
 
