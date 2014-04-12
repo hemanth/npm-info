@@ -29,7 +29,7 @@ Custom [Polymer](http://polymer-project.org/) element for dispalying npm-info of
 
 __TODO:__
 
-* Improve :lipstcik:
+* Improve :lipstick:
 
 * Find a better way to get the package version.
 
