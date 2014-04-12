@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Custom element to get npm info</title>
+    <script src="components/platform/platform.js"></script>
+    <link rel="import" href="src/npm-info.html">
+    <style>
+     div{
+     	position: absolute;
+     	top: 0; left: 0; right: 0;
+     	width: 200px;
+     	height: 200px;
+     	margin: auto;
+     }
+     div:after{ content: '\a' ; white-space: pre; }
+            
+    </style>
+</head>
+<body>
+<npm-info package="request"></npm-info>
+<div>
+   <p> Type the required package name, to get it's info!</p>
+   <input
+    value="request"
+    onfocus="if(this.value == 'value') { this.value = ''; }"
+    oninput="document.querySelector('npm-info').package = this.value">
+</div>
+</body>
+</html>
