@@ -16,11 +16,11 @@ Custom [Polymer](http://polymer-project.org/) element for dispalying npm-info of
 
 0. Import Web Components' polyfill:
 
-`<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/platform.js"></script>`
+`<script src="bower_components/platform/platform.js"></script>`
 
 1. Import Custom Element:
 
-`<link rel="import" href="src/npm-info.html">`
+`<link rel="import" href="bower_components/npm-info/dist/npm-info.html">`
 
 2. Start using it!
 
@@ -29,7 +29,7 @@ Custom [Polymer](http://polymer-project.org/) element for dispalying npm-info of
 
 __TODO:__
 
-* Improve :lipstcik:
+* Improve :lipstick:
 
 * Find a better way to get the package version.
 
